@@ -9,7 +9,7 @@
 }
 
 .hamburger-line {
-  @apply w-[20px] h-[2px] my-[4.5px] block bg-accent;
+  @apply w-[30px] h-[4px] my-[4px] block bg-accent;
 }
 
 .hamburger-active > span:nth-child(1){
