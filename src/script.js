@@ -44,7 +44,17 @@ function handleScroll() {
   });
 }
 
+// function handleScroll2() {
+//   const elements = document.querySelector('.hero-img');
+//   elements.forEach((element) => {
+//     if (isElementInViewport(element)) {
+//       element.classList.add('animate-float');
+//       element.classList.remove('animate-float')
+//     }
+//   });
+// }
 // Tambahkan event listener scroll
 window.addEventListener('scroll', handleScroll);
+// window.addEventListener('scroll', handleScroll2);
 
 
