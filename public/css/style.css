@@ -8707,6 +8707,11 @@ details.collapse summary::-webkit-details-marker {
   transform-origin: top left;
 }
 
+.skew-y-12 {
+  --tw-skew-y: 12deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .\!transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
@@ -9739,6 +9744,10 @@ details.collapse summary::-webkit-details-marker {
           box-decoration-break: clone;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -9770,6 +9779,10 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-left {
   background-position: left;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-repeat {
