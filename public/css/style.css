@@ -9739,14 +9739,6 @@ details.collapse summary::-webkit-details-marker {
           box-decoration-break: clone;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -9774,10 +9766,6 @@ details.collapse summary::-webkit-details-marker {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-left {
