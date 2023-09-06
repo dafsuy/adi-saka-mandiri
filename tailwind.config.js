@@ -31,7 +31,7 @@ module.exports = {
         },
         'float': {
           '0%': {transform: 'translateY(0px)'},
-          '50%': {transform: 'translateY(20px)'},
+          '50%': {transform: 'translateY(10px)'},
           '100%': {transform: 'translateY(0px)'},
         },
       },
@@ -41,7 +41,7 @@ module.exports = {
         'slide-up': 'slide-up 1s ease-out',
         'slide-down': 'slide-down 1s ease-out',
         'spin-slow': 'spin 60s linear infinite',
-        'float':  'float 6s ease-in-out infinite',
+        'float':  'float 5s ease-in-out infinite',
       }
     }
   },
