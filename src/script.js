@@ -1,12 +1,20 @@
 //Navber Fixed
 window.onscroll = () => {
   const header = document.querySelector('header');
+  const author = document.getElementById('author');
+  const navList = document.getElementById('nav-list');
   const fixedNav = header.offsetTop;
 
   if (window.scrollY > fixedNav) {
     header.classList.add('navbar-fixed');
+    author.classList.add('color-to-primary')
+    author.classList.remove('text-white')
+    navList.classList.remove('lg:text-white');
   } else {
     header.classList.remove('navbar-fixed');
+    author.classList.add('text-white');
+    author.classList.remove('color-to-primary');
+    navList.classList.add('lg:text-white');
   }
 };
 

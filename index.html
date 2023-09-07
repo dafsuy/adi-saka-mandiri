@@ -25,10 +25,10 @@
       <div class="container mx-auto">
         <div class="flex items-center justify-between px-4 relative">
           <div class="flex">
-            <img src="/src/img/logo.png" alt="logo" class="w-12 mr-3 lg:w-12" />
+            <img src="/src/img/logo.png" alt="logo" class="w-8 mr-3 lg:w-12" />
             <!-- Logo End -->
             <!-- Name Author Start-->
-            <h1 class="font-bold font-inter text-2xl text-primary lg:text-3xl">
+            <h1 id="author" class="font-bold font-inter text-xl text-white lg:text-3xl">
               PT ADI <span class="text-accent">SAKA</span> MANDIRI
             </h1>
             <!-- Name Author End -->
@@ -56,7 +56,7 @@
               id="nav-menu"
               class="hidden font-semibold absolute py-1 bg-white shadow-xl rounded-xl max-w-[300px] w-full right-4 top-full lg:static lg:max-w-full lg:block lg:bg-transparent lg:shadow-none lg:opacity-100 text-slate-700 transition-opacity ease-in opacity-0"
             >
-              <ul class="block text-xl lg:flex lg:text-xl">
+              <ul id="nav-list" class="block text-xl lg:text-white lg:flex lg:text-xl">
                 <li class="group">
                   <a
                     href="#"
@@ -94,27 +94,30 @@
     </header>
     <!-- Header End -->
     <main>
-      <section class="">
-        <div class="bg bg-gradient-to-br from-yellow-400 to bg-lime-400 w-full h-screen flex items-center">
-          <div class="container mx-auto px-4">
+      <section>
+        <div
+          class="bg-cover bg-center bg-fixed w-full h-screen flex items-center"
+          style="background-image: url(/src/img/parralax-bg.jpg)"
+        >
+          <div class="w-full h-full flex items-center backdrop-brightness-[0.3]">
             <div
-              class="flex flex-col sm:flex-row justify-center items-center w-full h-full backdrop-blur-lg"
+              class="container mx-auto px-4 flex flex-col justify-between items-center backdrop-blur-sm"
             >
               <div class="max-w-xl">
                 <h2
-                  class="font-semibold font-inter text-4xl lg:text-6xl md:text-4xl text-primary animate-slide-right lg:animate-slide-right"
+                  class="font-semibold font-inter text-4xl lg:text-7xl md:text-4xl text-white animate-slide-right lg:animate-slide-right"
                 >
                   Navigate <span class="text-accent">Your</span> Healthcare With
-                  <span class="text-accent">Our</span> Innovative Solutions
+                  <span class="text-secondary">Our</span> Innovative Solutions
                 </h2>
               </div>
-              <div class="lg:w-full max-w-xl mt-10 lg:mt-0">
+              <!-- <div class="lg:w-full max-w-xl mt-10 lg:mt-0">
                 <img
                   src="/src/img/medicare.svg"
                   class="sm:block w-4/5 sm:w-full mx-auto animate-float"
                   alt="medicare"
                 />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -122,26 +125,24 @@
       <!-- Hero End -->
       <!-- Welcome Section -->
       <section>
-        <div class="bg-fixed bg-center" style="background-image: url(/src/img/parralax-bg.jpg);">
-          <div class="w-full backdrop-blur-sm backdrop-brightness-[0.3]  transition-none">
-            <div
-              class="container mx-auto px-4 py-36 flex flex-col md:flex-row md:items-center md:justify-evenly"
-            >
-              <div class="text-white max-w-xl">
-                <h2 class="text-3xl font-bold sm:text-5xl animate-up">
-                  Since 2011,
-                </h2>
-                <p class="mt-5 sm:text-xl animate-up">
-                  We have been working with BUMN holding company and supplying
-                  hospital equiptment, medical equiptment, medical disposable
-                  laboratory products to hospitals and medical centres.
-                </p>
-              </div>
-              <div class="">
-                <button class="btn btn-secondary mt-10 md:ml-10 animate-up">
-                  <a href="#">Read About</a>
-                </button>
-              </div>
+        <div class="">
+          <div
+            class="container mx-auto px-4 py-36 flex flex-col md:flex-row md:items-center md:justify-evenly"
+          >
+            <div class="text-slate-600 max-w-xl">
+              <h2 class="text-3xl font-bold sm:text-5xl animate-up">
+                Since 2011,
+              </h2>
+              <p class="mt-5 sm:text-xl animate-up">
+                We have been working with BUMN holding company and supplying
+                hospital equiptment, medical equiptment, medical disposable
+                laboratory products to hospitals and medical centres.
+              </p>
+            </div>
+            <div class="">
+              <button class="btn btn-secondary mt-10 md:ml-10 animate-up">
+                <a href="#">Read About</a>
+              </button>
             </div>
           </div>
         </div>
