@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#2c632c',
+        primary: '#006837',
         secondary: '#08be6a',
-        accent: '#e26c2d'
+        accent: '#f37221',
+        green: '#39b54a',
+        dark: '#010507'
       },
       fontFamily: {
         inter: ['Inter'],
@@ -29,11 +31,11 @@ module.exports = {
           '0%': { opacity: '0', transform: 'translateY(-4rem)' },
           '100%': { opacity: '100', transform: 'translateY(0)' }
         },
-        'float': {
-          '0%': {transform: 'translateY(0px)'},
-          '50%': {transform: 'translateY(10px)'},
-          '100%': {transform: 'translateY(0px)'},
-        },
+        float: {
+          '0%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(10px)' },
+          '100%': { transform: 'translateY(0px)' }
+        }
       },
       animation: {
         'slide-right': 'slide-right 1s ease-out',
@@ -41,7 +43,7 @@ module.exports = {
         'slide-up': 'slide-up 1s ease-out',
         'slide-down': 'slide-down 1s ease-out',
         'spin-slow': 'spin 60s linear infinite',
-        'float':  'float 5s ease-in-out infinite',
+        float: 'float 5s ease-in-out infinite'
       }
     }
   },
