@@ -8,7 +8,8 @@ module.exports = {
         secondary: '#08be6a',
         accent: '#f37221',
         green: '#39b54a',
-        darkColor: '#010507'
+        darkColor: '#010507',
+        green2: '#8FE6AB'
       },
       fontFamily: {
         inter: ['Inter'],
