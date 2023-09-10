@@ -52,6 +52,8 @@ function handleScroll() {
   });
 }
 
+
+
 // function handleScroll2() {
 //   const elements = document.querySelector('.hero-img');
 //   elements.forEach((element) => {

@@ -100,6 +100,7 @@
     </header>
     <!-- Header End -->
     <main>
+      <!-- Hero Section -->
       <section>
         <div
           class="bg-cover bg-center bg-fixed w-full h-screen flex items-center"
@@ -121,7 +122,7 @@
                     Solutions
                   </h2>
                 </div>
-                <div class="flex flex-col mt-10 sm:flex-row gap-5 max-w-sm">
+                <div class="flex flex-col mt-10 sm:flex-row gap-5 max-w-sm animate-slide-left">
                   <a href="#contact" class="btn-home">CONTACT NOW</a>
                   <a href="#welcome" class="btn-home">SCROLL DOWN</a>
                 </div>
@@ -132,11 +133,15 @@
       </section>
       <!-- Hero End -->
       <!-- Welcome Section -->
-      <section id="welcome">
+      <section id="welcome" class="">
         <div class="w-full h-full pt-28">
           <div
-            class="container mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-evenly "
+            class="container mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-evenly gap-10 animete-up"
           >
+            <div
+              class="w-full h-52 sm:h-96 bg-center bg-cover rounded-xl animate-up"
+              style="background-image: url(/src/img/welcome.jpg)"
+            ></div>
             <div class="text-dark max-w-xl animate-up">
               <h2 class="text-3xl font-bold sm:text-5xl text-slate-600">
                 Since 2011,
@@ -146,13 +151,13 @@
                 hospital equiptment, medical equiptment, medical disposable
                 laboratory products to hospitals and medical centres.
               </p>
-            </div>
-            <div class="">
               <button
-                class="btn btn-secondary text-white mt-10 md:ml-10 animate-up"
+                class="btn btn-secondary mt-5 animate-up"
               >
                 <a href="#">Read About</a>
               </button>
+            </div>
+            <div class="">
             </div>
           </div>
         </div>
@@ -197,7 +202,7 @@
                     >
                       Our Product
                     </h2>
-                  </divb>
+                  </div>
                 </div>
                 <!-- End Icon of Product -->
                 <div
@@ -373,6 +378,7 @@
               </h2>
             </div>
             <!-- End Icon Of Product -->
+            <!-- Contact Detail & Send Message -->
             <div
               class="mt-10 sm:mt-20 flex flex-col md:flex-row-reverse gap-10 mx-auto max-w-sm md:max-w-full md: justify-evenly"
             >
@@ -532,7 +538,8 @@
                     </p>
                   </div>
                 </div>
-                <div">
+                <!-- Maps -->
+                <div>
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0701294127443!2d107.00480617396904!3d-6.1212633600217625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67410b2dafac9515%3A0xaf57cb601e5c48d!2sPT.%20Adi%20Saka%20Mandiri!5e0!3m2!1sid!2sid!4v1694326043552!5m2!1sid!2sid"
                     style="border: 0"
@@ -550,7 +557,6 @@
       </section>
       <!-- End Contact -->
     </main>
-
     <!-- Footer Section -->
     <footer class="bg-slate-950">
       <div class="container mx-auto p-7 flex justify-center items-center">
