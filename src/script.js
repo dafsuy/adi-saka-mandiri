@@ -7,8 +7,8 @@ window.onscroll = () => {
 
   if (window.scrollY > fixedNav) {
     header.classList.add('navbar-fixed');
-    author.classList.add('color-to-primary')
-    author.classList.remove('text-white')
+    author.classList.add('color-to-primary');
+    author.classList.remove('text-white');
     navList.classList.remove('lg:text-white');
   } else {
     header.classList.remove('navbar-fixed');
@@ -52,22 +52,22 @@ function handleScroll() {
   });
 }
 
-
-
-// function handleScroll2() {
-//   const elements = document.querySelector('.hero-img');
-//   elements.forEach((element) => {
-//     if (isElementInViewport(element)) {
-//       element.classList.add('animate-float');
-//       element.classList.remove('animate-float')
-//     }
-//   });
-// }
-// Tambahkan event listener scroll
 window.addEventListener('scroll', handleScroll);
-// window.addEventListener('scroll', handleScroll2);
+// Swiper
 
-
-
-
-
+let windowWidth = window.innerWidth;
+let page = 1;
+if(windowWidth > 640){
+  page = 3;
+}else {
+  page = 1;
+}
+let swiper = new Swiper('.mySwiper', {
+  slidesPerView: page,
+  spaceBetween: 30,
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  }
+});

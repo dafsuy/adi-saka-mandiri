@@ -8524,6 +8524,14 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 1.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -8631,6 +8639,10 @@ details.collapse summary::-webkit-details-marker {
   height: 15rem;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -8735,22 +8747,20 @@ details.collapse summary::-webkit-details-marker {
   transform: none;
 }
 
-@keyframes float {
+@keyframes slide-left {
   0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(10px);
+    opacity: 0;
+    transform: translateX(4rem);
   }
 
   100% {
-    transform: translateY(0px);
+    opacity: 100;
+    transform: translateX(0);
   }
 }
 
-.animate-float {
-  animation: float 5s ease-in-out infinite;
+.animate-slide-left {
+  animation: slide-left 1s ease-out;
 }
 
 @keyframes slide-right {
@@ -8767,22 +8777,6 @@ details.collapse summary::-webkit-details-marker {
 
 .animate-slide-right {
   animation: slide-right 1s ease-out;
-}
-
-@keyframes slide-left {
-  0% {
-    opacity: 0;
-    transform: translateX(4rem);
-  }
-
-  100% {
-    opacity: 100;
-    transform: translateX(0);
-  }
-}
-
-.animate-slide-left {
-  animation: slide-left 1s ease-out;
 }
 
 .touch-auto {
@@ -9705,6 +9699,16 @@ details.collapse summary::-webkit-details-marker {
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-slate-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
@@ -9717,6 +9721,16 @@ details.collapse summary::-webkit-details-marker {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-teal-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -10545,6 +10559,16 @@ details.collapse summary::-webkit-details-marker {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+}
+
+/* Swiper */
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  text-align: center;
 }
 
 .hover\:prose-lg:hover {
