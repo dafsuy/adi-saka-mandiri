@@ -58,14 +58,14 @@ window.addEventListener('scroll', handleScroll);
 let windowWidth = window.innerWidth;
 let page = 1;
 if(windowWidth > 640){
-  page = 3;
+  page = 2;
 }else {
   page = 1;
 }
 let swiper = new Swiper('.mySwiper', {
   slidesPerView: page,
   spaceBetween: 30,
-  freeMode: true,
+  centeredSlides: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true
