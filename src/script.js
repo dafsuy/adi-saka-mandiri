@@ -25,34 +25,12 @@ hamburger.addEventListener('click', function () {
   }, 100);
 });
 
-// animate show
-function isElementInViewport(el) {
-  const rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
-
-function handleScroll() {
-  const elements = document.querySelectorAll('.animate-up');
-  elements.forEach((element) => {
-    if (isElementInViewport(element)) {
-      element.classList.add('show');
-    }
-  });
-}
-
-window.addEventListener('scroll', handleScroll);
 // Swiper
 
 let windowWidth = window.innerWidth;
 let page = 1;
 if (windowWidth > 640) {
-  page = 2;
+  page = 3;
 } else {
   page = 1;
 }
@@ -66,7 +44,7 @@ let swiper = new Swiper('.mySwiper', {
   }
 });
 
-AOS
+// AOS
 AOS.init({
-  once: false,
+  once: false
 });

@@ -8528,6 +8528,10 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 1.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -9833,6 +9837,11 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 1.25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-32 {
   padding-bottom: 8rem;
 }
@@ -9843,6 +9852,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-28 {
@@ -12226,6 +12239,10 @@ details.collapse summary::-webkit-details-marker {
     position: static;
   }
 
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -12252,6 +12269,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:bg-transparent {
     background-color: transparent;
+  }
+
+  .lg\:pt-28 {
+    padding-top: 7rem;
   }
 
   .lg\:text-3xl {
