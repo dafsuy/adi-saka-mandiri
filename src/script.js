@@ -7,14 +7,8 @@ window.onscroll = () => {
 
   if (window.scrollY > fixedNav) {
     header.classList.add('navbar-fixed');
-    author.classList.add('color-to-primary');
-    author.classList.remove('text-white');
-    navList.classList.remove('lg:text-white');
   } else {
     header.classList.remove('navbar-fixed');
-    author.classList.add('text-white');
-    author.classList.remove('color-to-primary');
-    navList.classList.add('lg:text-white');
   }
 };
 
@@ -65,7 +59,7 @@ if (windowWidth > 640) {
 let swiper = new Swiper('.mySwiper', {
   slidesPerView: page,
   spaceBetween: 30,
-  centeredSlides: true,
+  freeMode: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true
@@ -74,5 +68,5 @@ let swiper = new Swiper('.mySwiper', {
 
 // AOS
 AOS.init({
-  once: true,
+  once: false,
 });
