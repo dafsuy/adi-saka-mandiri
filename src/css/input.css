@@ -46,7 +46,7 @@
 /* Button Home */
 
 .btn-home {
-  @apply text-white py-2 px-5 border border-white font-bold text-xs text-center lg:text-sm
+  @apply text-white py-2 px-5 border border-white font-bold text-xs text-center lg:text-sm hover:bg-white/50
 }
 
 /* Swiper */

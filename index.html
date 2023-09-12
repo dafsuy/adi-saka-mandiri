@@ -19,6 +19,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <!-- Aos JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>PT ADI SAKA MANDIRI</title>
   </head>
   <body class="font-inter">
@@ -120,18 +122,35 @@
               <div>
                 <div class="max-w-xl">
                   <h2
-                    class="text-4xl font-semibold text-white font-inter lg:text-7xl md:text-4xl animate-slide-right lg:animate-slide-right"
+                    class="text-4xl font-semibold text-white font-inter lg:text-7xl md:text-4xl"
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                    data-aos-duration="3000"
+                    data-aos-easing="ease-out-back"
                   >
                     Navigate <span class="text-accent">Your</span> Healthcare
                     With <span class="text-secondary">Our</span> Innovative
                     Solutions
                   </h2>
                 </div>
-                <div
-                  class="flex flex-col max-w-sm gap-5 mt-10 sm:flex-row animate-slide-left"
-                >
-                  <a href="#contact" class="btn-home">CONTACT NOW</a>
-                  <a href="#welcome" class="btn-home">SCROLL DOWN</a>
+                <div class="flex flex-col max-w-sm gap-5 mt-10 sm:flex-row">
+                  <a
+                    href="#contact"
+                    class="btn-home"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-out-back"
+                    >CONTACT NOW</a
+                  >
+                  <a
+                    href="#welcome"
+                    class="btn-home"
+                    data-aos="fade-down"
+                    data-aos-delay=""
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-out-back"
+                    >SCROLL DOWN</a
+                  >
                 </div>
               </div>
             </div>
@@ -146,10 +165,18 @@
             class="container flex flex-col gap-10 px-4 mx-auto md:flex-row md:items-center md:justify-evenly animete-up"
           >
             <div
-              class="w-full bg-center bg-cover h-52 sm:h-96 rounded-xl animate-up"
+              class="w-full bg-center bg-cover h-52 sm:h-96 rounded-xl"
               style="background-image: url(/src/img/welcome.jpg)"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out-back"
             ></div>
-            <div class="max-w-xl text-dark animate-up">
+            <div
+              class="max-w-xl text-dark"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out-back"
+            >
               <h2 class="text-3xl font-bold sm:text-5xl text-slate-600">
                 Since 2011,
               </h2>
@@ -158,7 +185,7 @@
                 hospital equiptment, medical equiptment, medical disposable
                 laboratory products to hospitals and medical centres.
               </p>
-              <button class="mt-5 btn btn-secondary animate-up">
+              <button class="mt-5 btn btn-secondary">
                 <a href="#">Read About</a>
               </button>
             </div>
@@ -211,7 +238,12 @@
                 <!-- End Icon of Product -->
                 <div class="swiper mySwiper mt-28 w-full h-[300px]">
                   <!-- Additional required wrapper -->
-                  <div class="swiper-wrapper">
+                  <div
+                    class="swiper-wrapper"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-easing="ease-out-back"
+                  >
                     <!-- Slides -->
                     <div
                       class="bg-center bg-cover swiper-slide slide"
@@ -512,7 +544,10 @@
       </div>
     </footer>
     <!-- End Footer -->
+    <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/src/script.js"></script>
   </body>
 </html>

@@ -57,9 +57,9 @@ window.addEventListener('scroll', handleScroll);
 
 let windowWidth = window.innerWidth;
 let page = 1;
-if(windowWidth > 640){
+if (windowWidth > 640) {
   page = 2;
-}else {
+} else {
   page = 1;
 }
 let swiper = new Swiper('.mySwiper', {
@@ -70,4 +70,9 @@ let swiper = new Swiper('.mySwiper', {
     el: '.swiper-pagination',
     clickable: true
   }
+});
+
+// AOS
+AOS.init({
+  once: true,
 });

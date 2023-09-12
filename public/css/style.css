@@ -8743,38 +8743,6 @@ details.collapse summary::-webkit-details-marker {
   transform: none;
 }
 
-@keyframes slide-left {
-  0% {
-    opacity: 0;
-    transform: translateX(4rem);
-  }
-
-  100% {
-    opacity: 100;
-    transform: translateX(0);
-  }
-}
-
-.animate-slide-left {
-  animation: slide-left 1s ease-out;
-}
-
-@keyframes slide-right {
-  0% {
-    opacity: 0;
-    transform: translateX(-4rem);
-  }
-
-  100% {
-    opacity: 100;
-    transform: translateX(0);
-  }
-}
-
-.animate-slide-right {
-  animation: slide-right 1s ease-out;
-}
-
 .touch-auto {
   touch-action: auto;
 }
@@ -9847,8 +9815,8 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 1.25rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .pl-6 {
@@ -9861,10 +9829,6 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-28 {
   padding-top: 7rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
 }
 
 .text-left {
@@ -10513,6 +10477,10 @@ details.collapse summary::-webkit-details-marker {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.btn-home:hover {
+  background-color: rgb(255 255 255 / 0.5);
 }
 
 @media (min-width: 1024px) {
@@ -12284,22 +12252,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:max-w-full {
     max-width: 100%;
-  }
-
-  @keyframes slide-right {
-    0% {
-      opacity: 0;
-      transform: translateX(-4rem);
-    }
-
-    100% {
-      opacity: 100;
-      transform: translateX(0);
-    }
-  }
-
-  .lg\:animate-slide-right {
-    animation: slide-right 1s ease-out;
   }
 
   .lg\:bg-transparent {
