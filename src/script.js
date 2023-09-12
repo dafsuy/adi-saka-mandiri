@@ -59,7 +59,7 @@ if (windowWidth > 640) {
 let swiper = new Swiper('.mySwiper', {
   slidesPerView: page,
   spaceBetween: 30,
-  freeMode: true,
+  centeredSlide: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true
