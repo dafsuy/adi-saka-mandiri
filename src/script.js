@@ -44,7 +44,7 @@ let swiper = new Swiper('.mySwiper', {
   }
 });
 
-// AOS
+AOS;
 AOS.init({
   once: false
 });
