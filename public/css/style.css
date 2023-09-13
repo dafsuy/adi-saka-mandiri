@@ -9672,6 +9672,36 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-green2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(143 230 171 / var(--tw-bg-opacity));
+}
+
+.bg-green1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(57 181 74 / var(--tw-bg-opacity));
+}
+
+.bg-green-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#BEFCFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 252 255 / var(--tw-bg-opacity));
+}
+
+.bg-teal-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 250 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 253 245 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -12251,6 +12281,11 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:bg-transparent {
     background-color: transparent;
+  }
+
+  .lg\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .lg\:pt-28 {
