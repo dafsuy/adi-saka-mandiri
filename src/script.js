@@ -26,18 +26,33 @@ hamburger.addEventListener('click', function () {
 });
 
 // Swiper
-
-let windowWidth = window.innerWidth;
-let page = 1;
-if (windowWidth > 640) {
-  page = 3;
-} else {
-  page = 1;
-}
-let swiper = new Swiper('.mySwiper', {
-  slidesPerView: page,
-  spaceBetween: 30,
+// Home Product Card
+let swiper = new Swiper('.swiperHomeProduct', {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3  ,
+      spaceBetween: 40
+    },
+  },
   centeredSlide: true,
+  speed: 700,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true

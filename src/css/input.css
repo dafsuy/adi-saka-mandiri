@@ -35,5 +35,5 @@
 /* Swiper */
 
 .slide {
-  @apply flex items-center justify-center text-center rounded-3xl;
+  @apply flex items-center justify-center text-center;
 }

@@ -10488,7 +10488,6 @@ details.collapse summary::-webkit-details-marker {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1.5rem;
   text-align: center;
 }
 
