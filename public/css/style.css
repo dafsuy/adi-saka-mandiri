@@ -9892,10 +9892,6 @@ details.collapse summary::-webkit-details-marker {
   padding-left: 2rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -12356,10 +12352,6 @@ details.collapse summary::-webkit-details-marker {
   .lg\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
-  }
-
-  .lg\:pt-28 {
-    padding-top: 7rem;
   }
 
   .lg\:text-3xl {
