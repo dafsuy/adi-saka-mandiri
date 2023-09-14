@@ -28,8 +28,6 @@ hamburger.addEventListener('click', function () {
 // Swiper
 // Home Product Card
 let swiper = new Swiper('.swiperHomeProduct', {
-  slidesPerView: 1,
-  spaceBetween: 20,
   breakpoints: {
     // when window width is >= 320px
     320: {
