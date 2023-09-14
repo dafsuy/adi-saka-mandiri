@@ -37,3 +37,7 @@
 .slide {
   @apply flex items-center justify-center text-center;
 }
+
+.my-btn {
+  @apply px-4 py-2 font-bold text-white transition ease-in-out rounded-full bg-secondary hover:bg-primary active:scale-95
+}
