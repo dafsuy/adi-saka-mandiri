@@ -41,16 +41,13 @@ let swiper = new Swiper('.swiperHomeProduct', {
     },
     // when window width is >= 640px
     640: {
-      slidesPerView: 3  ,
+      slidesPerView: 2,
       spaceBetween: 40
     },
   },
   centeredSlide: true,
   speed: 700,
   loop: true,
-  autoplay: {
-    delay: 5000,
-  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true
