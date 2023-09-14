@@ -48,6 +48,7 @@ let swiper = new Swiper('.swiperHomeProduct', {
   centeredSlide: true,
   speed: 700,
   loop: true,
+  grabCursor: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true
