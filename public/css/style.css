@@ -8643,6 +8643,14 @@ details.collapse summary::-webkit-details-marker {
   height: 100vh;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[350px\] {
+  height: 350px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -9984,6 +9992,11 @@ details.collapse summary::-webkit-details-marker {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
