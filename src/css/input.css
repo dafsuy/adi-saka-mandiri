@@ -40,7 +40,7 @@
 
 /* Categori Product Home */
 .product-card {
-  @apply w-full bg-center bg-cover aspect-video relative rounded-md
+  @apply w-full bg-center bg-cover aspect-video relative rounded-md overflow-hidden
 }
 
 .product-card-filter {

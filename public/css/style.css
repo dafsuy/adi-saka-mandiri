@@ -10587,6 +10587,7 @@ details.collapse summary::-webkit-details-marker {
   position: relative;
   aspect-ratio: 16 / 9;
   width: 100%;
+  overflow: hidden;
   border-radius: 0.375rem;
   background-size: cover;
   background-position: center;
