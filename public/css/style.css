@@ -9589,10 +9589,6 @@ details.collapse summary::-webkit-details-marker {
   border-top-right-radius: 0.25rem;
 }
 
-.rounded-bl-full {
-  border-bottom-left-radius: 9999px;
-}
-
 .border {
   border-width: 1px;
 }
@@ -9732,28 +9728,18 @@ details.collapse summary::-webkit-details-marker {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-secondary {
-  --tw-gradient-from: #08be6a var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(8 190 106 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-green-50 {
   --tw-gradient-from: #f0fdf4 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(240 253 244 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-white {
-  --tw-gradient-to: #fff var(--tw-gradient-to-position);
-}
-
-.to-accent {
-  --tw-gradient-to: #f37221 var(--tw-gradient-to-position);
-}
-
 .to-amber-50 {
   --tw-gradient-to: #fffbeb var(--tw-gradient-to-position);
+}
+
+.to-white {
+  --tw-gradient-to: #fff var(--tw-gradient-to-position);
 }
 
 .decoration-slice {
