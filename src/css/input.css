@@ -40,11 +40,11 @@
 
 /* Categori Product Home */
 .product-card {
-  @apply w-full bg-center bg-cover aspect-video relative rounded-md overflow-hidden
+  @apply w-full bg-center bg-cover aspect-video relative rounded-xl drop-shadow-md
 }
 
 .product-card-filter {
-  @apply w-full h-full bg-black/50
+  @apply w-full h-full bg-black/50 rounded-xl
 }
 
 .product-card-container {
