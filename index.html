@@ -155,7 +155,9 @@
           >
             <div
               class="w-full bg-center bg-cover rounded-bl-[50%] h-52 sm:h-96"
-              style="background-image: url(/src/img/welcome.jpg)"
+              style="
+                background-image: url(/src/img/decoration/welcome-home.jpg);
+              "
               data-aos="flip-up"
               data-aos-duration="2000"
               data-aos-easing="ease-out-back"
@@ -174,7 +176,7 @@
                 and supplying hospital equiptment, medical equiptment, medical
                 disposable laboratory products to hospitals and medical centres.
               </p>
-              <button class="mt-5 my-btn">
+              <button class="flex items-center gap-2 mt-5 my-btn">
                 <a href="#">Read About</a>
               </button>
             </div>
@@ -668,65 +670,81 @@
           <!-- Backdrop -->
           <div class="w-full h-full">
             <div class="container px-4 mx-auto">
-              <div class="px-4">
-                <!-- Icon of product -->
-                <div class="mx-auto">
-                  <div class="">
-                    <h2
-                      class="mt-5 text-4xl font-bold text-center text-darkColor lg:text-5xl"
-                    >
-                      Our Product
-                    </h2>
-                  </div>
-                </div>
-                <!-- End Icon of Product -->
-                <div
-                  class="swiper swiperHomeProduct mt-20 lg:mt-28 w-full h-[350px]"
+              <!-- Icon of product -->
+              <div class="mx-auto">
+                <h2
+                  class="mt-5 text-4xl font-bold text-center text-darkColor lg:text-5xl"
                 >
-                  <!-- Additional required wrapper -->
-                  <div
-                    class="swiper-wrapper"
-                    data-aos="fade-left"
-                    data-aos-duration="2000"
-                    data-aos-easing="ease-out"
-                  >
-                    <!-- Slides -->
-                    <div
-                      class="bg-center bg-cover swiper-slide slide"
-                      style="
-                        background-image: url(https://source.unsplash.com/1280x720);
-                      "
-                    ></div>
-                    <div
-                      class="bg-center bg-cover swiper-slide slide"
-                      style="
-                        background-image: url(https://source.unsplash.com/1280x720);
-                      "
-                    ></div>
-                    <div
-                      class="bg-center bg-cover swiper-slide slide"
-                      style="
-                        background-image: url(https://source.unsplash.com/1280x720);
-                      "
-                    ></div>
-                    <div
-                      class="bg-center bg-cover swiper-slide slide"
-                      style="
-                        background-image: url(https://source.unsplash.com/1280x720);
-                      "
-                    ></div>
-                    <div
-                      class="bg-center bg-cover swiper-slide slide"
-                      style="
-                        background-image: url(https://source.unsplash.com/1280x720);
-                      "
-                    ></div>
-                  </div>
-                  <!-- If we need pagination -->
-                  <div class="swiper-pagination"></div>
-                </div>
-                <!-- End Carousel -->
+                  Our Product
+                </h2>
               </div>
+              <!-- End Icon of Product -->
+              <!-- Categori Product -->
+              <div
+                class="grid grid-cols-1 gap-10 mt-20 sm:grid-cols-2 lg:mt-28"
+              >
+                <div
+                  class="product-card"
+                  style="
+                    background-image: url(/src/img/decoration/electromedic-home.jpg);
+                  "
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-out"
+                >
+                  <div class="product-card-container">
+                    <h3 class="product-title">Electromedic</h3>
+                    <button class="btn-view-product">View Details</button>
+                  </div>
+                  <div class="product-card-filter"></div>
+                </div>
+                <div
+                  class="product-card"
+                  style="
+                    background-image: url(/src/img/decoration/hvac-home.jpg);
+                  "
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-out"
+                >
+                  <div class="product-card-container">
+                    <h3 class="product-title">HVAC</h3>
+                    <button class="btn-view-product">View Details</button>
+                  </div>
+                  <div class="product-card-filter"></div>
+                </div>
+                <div
+                  class="product-card"
+                  style="
+                    background-image: url(/src/img/decoration/furniture-home.jpg);
+                  "
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-out"
+                >
+                  <div class="product-card-container">
+                    <h3 class="product-title">Hospital Furniture</h3>
+                    <button class="btn-view-product">View Details</button>
+                  </div>
+                  <div class="product-card-filter"></div>
+                </div>
+                <div
+                  class="product-card"
+                  style="
+                    background-image: url(/src/img/decoration/ambulance-home.jpg);
+                  "
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-out"
+                >
+                  <div class="product-card-container">
+                    <h3 class="product-title">Vehicle</h3>
+                    <button class="btn-view-product">View Details</button>
+                  </div>
+                  <div class="product-card-filter"></div>
+                </div>
+              </div>
+              <!-- End Categori Product -->
             </div>
           </div>
         </div>
