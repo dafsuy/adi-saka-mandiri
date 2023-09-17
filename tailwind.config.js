@@ -15,37 +15,6 @@ module.exports = {
         inter: ['Inter'],
         sono: ['Sono']
       },
-      keyframes: {
-        'slide-right': {
-          '0%': { opacity: '0', transform: 'translateX(-4rem)' },
-          '100%': { opacity: '100', transform: 'translateX(0)' }
-        },
-        'slide-left': {
-          '0%': { opacity: '0', transform: 'translateX(4rem)' },
-          '100%': { opacity: '100', transform: 'translateX(0)' }
-        },
-        'slide-up': {
-          '0%': { opacity: '0', transform: 'translateY(4rem)' },
-          '100%': { opacity: '100', transform: 'translateY(0)' }
-        },
-        'slide-down': {
-          '0%': { opacity: '0', transform: 'translateY(-4rem)' },
-          '100%': { opacity: '100', transform: 'translateY(0)' }
-        },
-        float: {
-          '0%': { transform: 'translateY(0px)' },
-          '50%': { transform: 'translateY(10px)' },
-          '100%': { transform: 'translateY(0px)' }
-        }
-      },
-      animation: {
-        'slide-right': 'slide-right 1s ease-out',
-        'slide-left': 'slide-left 1s ease-out',
-        'slide-up': 'slide-up 1s ease-out',
-        'slide-down': 'slide-down 1s ease-out',
-        'spin-slow': 'spin 60s linear infinite',
-        float: 'float 5s ease-in-out infinite'
-      }
     }
   },
   daisyui: {
