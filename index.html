@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-green-50 scroll-smooth">
+<html lang="en" class="bg-green-100 scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -64,12 +64,12 @@
             <!-- Nav Start -->
             <nav
               id="nav-menu"
-              class="hidden font-semibold absolute py-1 bg-white shadow-xl rounded-xl max-w-[300px] w-full right-4 top-full lg:static lg:max-w-full lg:block lg:bg-transparent lg:shadow-none lg:opacity-100 text-slate-700 transition-opacity ease-in opacity-0"
+              class="hidden font-semibold absolute py-1 bg-white shadow-xl rounded-xl max-w-[300px] w-full right-4 top-full lg:static lg:max-w-full lg:block lg:bg-transparent lg:shadow-none lg:opacity-100 text-slate-700 lg:text-white transition-opacity ease-in opacity-0"
             >
               <ul id="nav-list" class="block text-lg lg:flex lg:text-xl">
                 <li class="group">
                   <a
-                    href="#"
+                    href="index.html"
                     class="flex py-2 mx-8 duration-300 ease-in text-dark group-hover:text-secondary"
                     >Home</a
                   >
@@ -83,7 +83,7 @@
                 </li>
                 <li class="group">
                   <a
-                    href="#product"
+                    href="index.html#product"
                     class="flex py-2 mx-8 duration-300 ease-in text-dark group-hover:text-secondary"
                     >Product</a
                   >
@@ -107,7 +107,8 @@
       <!-- Hero Section -->
       <section>
         <div
-          class="flex items-center w-full h-screen bg-gradient-to-b from-[#D3FADE] to-white bg-cover"
+          id="hero"
+          class="flex items-center w-full h-screen bg-center bg-cover"
           style="background-image: url(/src/img/bisnis.jpg)"
         >
           <div class="flex items-center w-full h-full backdrop-brightness-50">
@@ -125,16 +126,9 @@
                   Navigate <span class="text-accent">Your</span> Healthcare With
                   <span class="text-secondary">Our</span> Innovative Solutions
                 </h2>
-                <div class="flex flex-col w-full gap-5 mt-20 sm:flex-row">
-                  <a
-                    href="#contact"
-                    class="btn-home"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-out-back"
-                    >CONTACT NOW</a
-                  >
-                </div>
+                <button class="mt-10 btn-hero ">
+                  <a href="#">CONTACT NOW</a>
+                </button>
               </div>
             </div>
           </div>
@@ -142,7 +136,7 @@
       </section>
       <!-- Hero End -->
       <!-- Welcome Section -->
-      <section id="welcome" class="">
+      <section id="welcome" class="pt-20 lg:pt-28">
         <div class="w-full h-full">
           <div
             class="container flex flex-col gap-10 px-4 mx-auto md:flex-row md:items-center md:justify-evenly animete-up"
@@ -174,13 +168,12 @@
                 <a href="#">Read About</a>
               </button>
             </div>
-            <div class=""></div>
           </div>
         </div>
       </section>
       <!-- End Welcome -->
       <!-- Brand Section -->
-      <section class="py-20 lg:py-28">
+      <section class="pt-20 lg:pt-28">
         <div class="container px-4 mx-auto">
           <div class="flex justify-center text-center">
             <h2 class="max-w-md text-4xl font-bold sm:text-5xl text-darkColor">
@@ -650,7 +643,7 @@
       </section>
       <!-- End Brand -->
       <!-- Product Section -->
-      <section id="product" class="py-20 lg:py-28">
+      <section id="product" class="pt-20 lg:pt-28">
         <!-- Background Image -->
         <div class="">
           <!-- Backdrop -->
@@ -738,9 +731,6 @@
                 </div>
               </div>
               <!-- End Categori Product -->
-              <div class="flex max-h-full mt-10">
-                <button class="w-full mx-auto my-btn">See All Product</button>
-              </div>
             </div>
           </div>
         </div>

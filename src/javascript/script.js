@@ -4,11 +4,20 @@ window.onscroll = () => {
   const author = document.getElementById('author');
   const navList = document.getElementById('nav-list');
   const fixedNav = header.offsetTop;
+  const endHero = document.getElementById('hero').offsetHeight;
 
   if (window.scrollY > fixedNav) {
     header.classList.add('navbar-fixed');
   } else {
     header.classList.remove('navbar-fixed');
+  }
+  
+  if (window.scrollY > endHero - 40) {
+    header.classList.add('navbar-white');
+    navList.classList.add('nav-text-white');
+  }else {
+    navList.classList.remove('nav-text-white');
+    header.classList.remove('navbar-white');
   }
 };
 

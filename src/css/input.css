@@ -4,11 +4,17 @@
 
 /* Navbar */
 .navbar-fixed {
-  @apply fixed z-[1000] bg-white bg-opacity-80;
+  @apply fixed z-[1000];
   backdrop-filter: blur(10px);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
 }
 
+.navbar-white {
+  @apply bg-white bg-opacity-70;
+}
+.nav-text-white {
+  @apply text-slate-700;
+}
 /* Hamburger */
 .hamburger-line {
   @apply w-[30px] h-[4px] my-[6px] block bg-secondary;
@@ -28,33 +34,33 @@
 
 /* Button Home */
 
-.btn-home {
-  @apply text-slate-600 py-2 px-5 border border-slate-600 font-bold text-xs text-center lg:text-sm hover:bg-secondary hover:text-white transition ease-in duration-1000;
+.btn-hero {
+  @apply text-white py-2 px-5 border border-white font-bold text-xs text-center lg:text-sm hover:bg-white/50 hover:text-white transition ease-in active:scale-95 duration-75 rounded-full w-full;
 }
 
 /* Swiper */
 
 .my-btn {
-  @apply px-4 py-2 font-bold text-white transition ease-in-out rounded-full bg-secondary hover:bg-primary active:scale-95
+  @apply px-4 py-2 font-bold text-white transition ease-in-out rounded-full bg-secondary hover:bg-primary active:scale-95;
 }
 
 /* Categori Product Home */
 .product-card {
-  @apply w-full bg-center bg-cover aspect-video relative rounded-sm border-l-4 border-secondary
+  @apply w-full bg-center bg-cover aspect-video relative rounded-sm border-l-4 border-secondary;
 }
 
 .product-card-filter {
-  @apply w-full h-full bg-black/50 rounded-sm
+  @apply w-full h-full bg-black/50 rounded-sm;
 }
 
 .product-card-container {
-  @apply absolute w-full h-full flex flex-col justify-evenly items-center
+  @apply absolute w-full h-full flex flex-col justify-evenly items-center;
 }
 
 .product-title {
-  @apply text-white font-bold text-3xl
+  @apply text-white font-bold text-3xl;
 }
 
 .btn-view-product {
-  @apply text-lg text-white border-2 border-white px-5 py-2 hover:bg-white/30 transition ease-in-out active:scale-95 rounded-full
+  @apply text-lg text-white border-2 border-white px-5 py-2 hover:bg-white/30 transition ease-in-out active:scale-95 rounded-full;
 }
