@@ -8520,6 +8520,14 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 1.25rem;
 }
 
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-\[1000px\] {
+  margin-top: 1000px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -8675,14 +8683,6 @@ details.collapse summary::-webkit-details-marker {
   max-width: 36rem;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -8749,6 +8749,32 @@ details.collapse summary::-webkit-details-marker {
 
 .transform-none {
   transform: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
 }
 
 .touch-auto {
@@ -10449,6 +10475,10 @@ details.collapse summary::-webkit-details-marker {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .ease-in {
@@ -12325,24 +12355,12 @@ details.collapse summary::-webkit-details-marker {
     height: 24rem;
   }
 
-  .sm\:max-w-2xl {
-    max-width: 42rem;
-  }
-
   .sm\:max-w-3xl {
     max-width: 48rem;
   }
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .sm\:flex-row {
@@ -12413,14 +12431,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:aspect-auto {
-    aspect-ratio: auto;
-  }
-
-  .lg\:aspect-square {
-    aspect-ratio: 1 / 1;
   }
 
   .lg\:w-12 {

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/src/img/favicon.png" type="image/x-icon" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="public/css/style.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- Aos JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PT ADI SAKA MANDIRI</title>
+  </head>
+  <body class="font-inter">
+    <!-- Header Start -->
+    <header
+      id="home"
+      class="absolute top-0 left-0 z-10 flex items-center w-full py-5 mx-auto duration-1000 bg-transparent linear"
+    >
+      <div class="container mx-auto">
+        <div class="relative flex items-center justify-between px-4">
+          <div class="flex">
+            <img src="/src/img/logo.png" alt="logo" class="w-8 mr-3 lg:w-12" />
+            <!-- Logo End -->
+            <!-- Name Author Start-->
+            <h1
+              id="author"
+              class="text-xl font-bold text-primary font-inter lg:text-3xl"
+            >
+              PT ADI <span class="text-accent">SAKA</span> MANDIRI
+            </h1>
+            <!-- Name Author End -->
+          </div>
+          <!-- Logo Start -->
+          <div class="flex items-center px-4">
+            <!-- Button Start -->
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute block right-4 lg:hidden"
+            >
+              <span
+                class="transition duration-300 origin-top-left hamburger-line"
+              ></span>
+              <span class="transition duration-300 hamburger-line"></span>
+              <span
+                class="transition duration-300 origin-bottom-left hamburger-line"
+              ></span>
+            </button>
+            <!-- Button Stop-->
+            <!-- Nav Start -->
+            <nav
+              id="nav-menu"
+              class="hidden font-semibold absolute py-1 bg-white shadow-xl rounded-xl max-w-[300px] w-full right-4 top-full lg:static lg:max-w-full lg:block lg:bg-transparent lg:shadow-none lg:opacity-100 text-slate-700 transition-opacity ease-in opacity-0"
+            >
+              <ul id="nav-list" class="block text-lg lg:flex lg:text-xl">
+                <li class="group">
+                  <a
+                    href="/index.html"
+                    class="flex py-2 mx-8 duration-300 ease-in text-dark group-hover:text-secondary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="/about.html"
+                    class="flex py-2 mx-8 duration-300 ease-in text-dark group-hover:text-secondary"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#product"
+                    class="flex py-2 mx-8 duration-300 ease-in text-dark group-hover:text-secondary"
+                    >Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html#contact"
+                    class="flex py-2 mx-8 duration-300 ease-in text-dark group-hover:text-secondary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- Nav Stop -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <main>
+      
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-slate-950 mt-[1000px]">
+      <div class="container flex items-center justify-center mx-auto p-7">
+        <p class="text-center text-white">
+          Copyright &copy2023 PT Adi Saka Mandiri | All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/src/javascript/script.js"></script>
+  </body>
+</html>
