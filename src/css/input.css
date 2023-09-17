@@ -10,7 +10,7 @@
 }
 
 .navbar-white {
-  @apply bg-white bg-opacity-70;
+  @apply bg-white bg-opacity-80;
 }
 .nav-text-white {
   @apply text-slate-700;
