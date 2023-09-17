@@ -1,6 +1,7 @@
 //Navber Fixed
+
 window.onscroll = () => {
-  const header = document.querySelector('header');
+  const header = document.getElementById('home');
   const author = document.getElementById('author');
   const navList = document.getElementById('nav-list');
   const fixedNav = header.offsetTop;
@@ -8,18 +9,30 @@ window.onscroll = () => {
 
   if (window.scrollY > fixedNav) {
     header.classList.add('navbar-fixed');
+    // other header
   } else {
     header.classList.remove('navbar-fixed');
   }
-  
+
   if (window.scrollY > endHero - 40) {
     header.classList.add('navbar-white');
     navList.classList.add('nav-text-white');
-  }else {
+    author.classList.add('author-change');
+  } else {
     navList.classList.remove('nav-text-white');
     header.classList.remove('navbar-white');
+    author.classList.remove('author-change');
   }
 };
+
+// window.onscroll = () => {
+//   const otherHeader = document.getElementById('otherHeader');
+//   if (window.scrollY > header.offsetTop) {
+//     otherHeader.classList.add('navber-fixed');
+//   } else {
+//     otherHeader.classList.remove('navbar-fidex');
+//   }
+// };
 
 // Hamburger
 
@@ -52,7 +65,7 @@ let swiper = new Swiper('.swiperHomeProduct', {
     640: {
       slidesPerView: 2,
       spaceBetween: 40
-    },
+    }
   },
   centeredSlide: true,
   speed: 700,

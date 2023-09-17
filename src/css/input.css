@@ -15,6 +15,10 @@
 .nav-text-white {
   @apply text-slate-700;
 }
+
+.author-change {
+  @apply text-primary;
+}
 /* Hamburger */
 .hamburger-line {
   @apply w-[30px] h-[4px] my-[6px] block bg-secondary;
