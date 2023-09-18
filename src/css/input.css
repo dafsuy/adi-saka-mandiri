@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p {
-  @apply text-slate-600
+  @apply text-slate-600 sm:text-xl
 }
 /* Navbar */
 .navbar-fixed {
