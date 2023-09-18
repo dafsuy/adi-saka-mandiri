@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  @apply text-slate-600
+}
 /* Navbar */
 .navbar-fixed {
   @apply fixed z-[1000];
