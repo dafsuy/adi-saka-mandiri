@@ -9891,11 +9891,6 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 5rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -9904,6 +9899,10 @@ details.collapse summary::-webkit-details-marker {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pl-10 {
@@ -9922,24 +9921,12 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 5rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
-}
-
 .pt-48 {
   padding-top: 12rem;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
 }
 
 .text-left {
@@ -10019,11 +10006,6 @@ details.collapse summary::-webkit-details-marker {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-lg {
