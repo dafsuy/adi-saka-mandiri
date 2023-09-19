@@ -9793,6 +9793,10 @@ details.collapse summary::-webkit-details-marker {
   background-position: center;
 }
 
+.bg-left-top {
+  background-position: left top;
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
