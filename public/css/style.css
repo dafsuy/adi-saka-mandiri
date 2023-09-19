@@ -8643,10 +8643,6 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -9895,6 +9891,11 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 5rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -9919,6 +9920,26 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
 }
 
 .text-left {
@@ -12518,6 +12539,10 @@ p {
 
   .lg\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .lg\:pt-40 {
+    padding-top: 10rem;
   }
 
   .lg\:text-3xl {
