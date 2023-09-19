@@ -8508,6 +8508,10 @@ details.collapse summary::-webkit-details-marker {
   margin-right: 0.75rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -8526,10 +8530,6 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-\[1000px\] {
   margin-top: 1000px;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .box-border {
@@ -8655,6 +8655,10 @@ details.collapse summary::-webkit-details-marker {
   width: 5rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .w-4\/5 {
   width: 80%;
 }
@@ -8667,12 +8671,12 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-28 {
+  width: 7rem;
 }
 
-.w-40 {
-  width: 10rem;
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-\[300px\] {
@@ -12393,12 +12397,12 @@ p {
     height: 24rem;
   }
 
-  .sm\:max-w-3xl {
-    max-width: 48rem;
+  .sm\:w-32 {
+    width: 8rem;
   }
 
-  .sm\:max-w-lg {
-    max-width: 32rem;
+  .sm\:max-w-3xl {
+    max-width: 48rem;
   }
 
   .sm\:max-w-md {
