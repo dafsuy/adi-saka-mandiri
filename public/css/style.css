@@ -9901,8 +9901,8 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 1.75rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pb-48 {
+  padding-bottom: 12rem;
 }
 
 .pl-10 {
@@ -9923,10 +9923,6 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-48 {
   padding-top: 12rem;
-}
-
-.pb-48 {
-  padding-bottom: 12rem;
 }
 
 .text-left {

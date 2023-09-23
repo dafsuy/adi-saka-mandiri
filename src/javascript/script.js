@@ -25,14 +25,6 @@ window.onscroll = () => {
   }
 };
 
-// window.onscroll = () => {
-//   const otherHeader = document.getElementById('otherHeader');
-//   if (window.scrollY > header.offsetTop) {
-//     otherHeader.classList.add('navber-fixed');
-//   } else {
-//     otherHeader.classList.remove('navbar-fidex');
-//   }
-// };
 
 // Hamburger
 
@@ -77,6 +69,7 @@ let swiper = new Swiper('.swiperHomeProduct', {
   }
 });
 
+// AOS
 AOS.init({
   once: false
 });

@@ -17,32 +17,7 @@ module.exports = {
       },
     }
   },
-  daisyui: {
-    themes: [
-      {
-        mytheme: {
-          primary: '#2c632c',
-
-          secondary: '#08be6a',
-
-          accent: '#e26c2d',
-
-          neutral: '#181b25',
-
-          'base-100': '#eae2ee',
-
-          info: '#9bd6e4',
-
-          success: '#1c8757',
-
-          warning: '#c69606',
-
-          error: '#ee5749'
-        }
-      }
-    ]
-  },
-  plugins: [require('@tailwindcss/typography'), require('daisyui')]
+  plugins: [require('@tailwindcss/typography')]
 };
 // #e26c2d green old
 // #2c632c orange
