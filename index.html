@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-green-50 scroll-smooth">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <!-- AOS CSS -->
-    <link rel="stylesheet" href="/src/css/aos.css">
+    <link rel="stylesheet" href="/src/css/aos.css" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="/src/img/favicon.png" type="image/x-icon" />
     <!-- Styles -->
@@ -23,7 +23,7 @@
     />
     <title>PT. ADI SAKA MANDIRI</title>
   </head>
-  <body class="font-inter">
+  <body class="font-inter bg-green-50">
     <!-- Header Start -->
     <header
       id="home"
@@ -778,7 +778,7 @@
             class="flex flex-col max-w-sm gap-10 mx-auto mt-10 sm:mt-20 md:flex-row-reverse md:max-w-full md:justify-center"
           >
             <!-- Form -->
-            <div class="p-5 border-t-4 shadow-lg grow border-accent">
+            <div class="p-5 border-t-4 shadow-lg border-accent">
               <form action="">
                 <div>
                   <label for="name" class="font-semibold text-slate-600"
@@ -788,7 +788,7 @@
                     type="text"
                     placeholder="Your Name"
                     name="name"
-                    class="block w-full max-w-sm input input-bordered input-secondary"
+                    class="w-full form-input focus:ring-0 focus:border-secondary"
                   />
                 </div>
                 <div class="mt-5">
@@ -796,7 +796,7 @@
                     >Message</label
                   >
                   <textarea
-                    class="w-full max-w-sm textarea textarea-secondary"
+                    class="w-full form-textarea focus:ring-0 focus:border-secondary"
                     placeholder="Type Message"
                     name="text"
                   ></textarea>

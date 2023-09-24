@@ -14,10 +14,14 @@ module.exports = {
       fontFamily: {
         inter: ['Inter'],
         sono: ['Sono']
-      },
+      }
     }
   },
-  plugins: [require('@tailwindcss/typography')]
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+  ],
+  darkMode: 'class'
 };
 // #e26c2d green old
 // #2c632c orange
