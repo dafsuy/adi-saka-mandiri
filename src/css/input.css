@@ -71,3 +71,7 @@ p {
 .btn-view-product {
   @apply text-lg text-white border-2 border-white px-5 py-2 hover:bg-white/30 transition ease-in-out active:scale-95 rounded-full;
 }
+
+Button {
+  @apply active:bg-none
+}
