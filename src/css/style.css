@@ -3255,6 +3255,22 @@ select {
   padding-top: 12rem;
 }
 
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -4084,10 +4100,6 @@ p {
   --tw-scale-x: .95;
   --tw-scale-y: .95;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-Button:active {
-  background-image: none;
 }
 
 .hover\:prose-lg:hover {
