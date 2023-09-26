@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p {
-  @apply text-slate-600 sm:text-xl
+  @apply text-slate-600 sm:text-xl;
 }
 /* Navbar */
 .navbar-fixed {
@@ -70,4 +70,37 @@ p {
 
 .btn-view-product {
   @apply text-lg text-white border-2 border-white px-5 py-2 hover:bg-white/30 transition ease-in-out active:scale-95 rounded-full;
+}
+
+/* Product Page */
+/* Section */
+.section-product {
+  @apply pt-20 lg:pt-28 px-4;
+}
+
+.container-product {
+  @apply mx-auto container bg-white p-5;
+}
+
+.product-category-name {
+  @apply px-4 py-2 font-bold text-4xl lg:text-5xl text-white bg-secondary inline-block;
+}
+
+.product-item-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-5;
+}
+
+.product-item-card {
+  @apply p-5 max-w-sm;
+}
+
+.product-item-img {
+}
+
+.product-btn-contact {
+  @apply block text-secondary font-bold mt-5;
+}
+
+.product-btn-form {
+  @apply block text-secondary font-bold;
 }
