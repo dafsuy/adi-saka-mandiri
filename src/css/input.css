@@ -87,14 +87,20 @@ p {
 }
 
 .product-item-container {
-  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-5;
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-5 mt-10 lg:mt-20;
 }
 
 .product-item-card {
-  @apply p-5 max-w-sm;
+  @apply p-5 max-w-sm bg-white shadow-xl rounded-xl;
+}
+
+.product-img-container {
+  @apply mx-auto aspect-square flex items-center
 }
 
 .product-item-img {
+  /* @apply h-52 mx-auto sm:h-56 lg:h-60 */
+  @apply mx-auto
 }
 
 .product-btn-contact {
